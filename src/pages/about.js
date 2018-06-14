@@ -13,7 +13,7 @@ class AboutPage extends React.Component {
         <p onClick={this.increment}>lorem ipsum {this.state.count}</p>
         <Link to="/">Go back to the homepage</Link>
 
-        <form name="hiring" method="POST" netlify>
+        <form name="hiring" method="POST" data-netlify="true">
           <p>
             <label>Your Name: <input type="text" name="name" /></label>
           </p>
